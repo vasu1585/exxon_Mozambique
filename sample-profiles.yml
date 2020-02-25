@@ -1,0 +1,20 @@
+
+# For more information on how to configure this file, please see:
+# https://docs.getdbt.com/docs/profile
+
+upst_financial_reporting:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: <exxon snowflake account id here>
+
+      user: <your exxon snowflake username here>
+      role: upst_financial_reporting_developer
+      database: upst_financial_reporting_dev
+      warehouse: upst_financial_reporting_developer_wh
+      schema: <your first name>_<your last name>
+      
+      authenticator: externalbrowser
+      threads: 1
+      client_session_keep_alive: False

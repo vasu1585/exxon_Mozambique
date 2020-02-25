@@ -1,0 +1,1898 @@
+2020-02-23 22:18:31,575764 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:18:31,995821 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:31,996067 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:31,996268 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,20858 (MainThread): Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+2020-02-23 22:18:32,22486 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,43844 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,49742 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,49798 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,49832 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,49865 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,49897 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,49926 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,49955 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,52036 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,52095 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,52129 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,52161 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,52194 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,52224 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,52253 (MainThread): invalid escape sequence \*
+2020-02-23 22:18:32,517933 (MainThread): invalid escape sequence \[
+2020-02-23 22:18:32,652979 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-02-23 22:18:32,654924 (MainThread): Tracking: tracking
+2020-02-23 22:18:32,655240 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5c7a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcc2c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5c7a10>]}
+2020-02-23 22:18:33,1488 (MainThread): Global variable 'kSecRandomDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,1686 (MainThread): Global variable 'kSecPaddingKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,1802 (MainThread): Global variable 'kSecPaddingPKCS7Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,1910 (MainThread): Global variable 'kSecPaddingPKCS5Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2019 (MainThread): Global variable 'kSecPaddingPKCS1Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2122 (MainThread): Global variable 'kSecPaddingOAEPKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2222 (MainThread): Global variable 'kSecPaddingNoneKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2321 (MainThread): Global variable 'kSecModeCBCKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2419 (MainThread): Global variable 'kSecTransformInputAttributeName' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2546 (MainThread): Global variable 'kSecDigestTypeAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2643 (MainThread): Global variable 'kSecDigestLengthAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2742 (MainThread): Global variable 'kSecIVKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2837 (MainThread): Global variable 'kSecAttrIsExtractable' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,2930 (MainThread): Global variable 'kSecDigestSHA1' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3022 (MainThread): Global variable 'kSecDigestSHA2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3114 (MainThread): Global variable 'kSecDigestMD5' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3212 (MainThread): Global variable 'kSecAttrKeyType' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3306 (MainThread): Global variable 'kSecAttrKeyTypeRSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3408 (MainThread): Global variable 'kSecAttrKeyTypeDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3516 (MainThread): Global variable 'kSecAttrKeyTypeECDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3624 (MainThread): Global variable 'kSecAttrKeySizeInBits' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3726 (MainThread): Global variable 'kSecAttrLabel' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3824 (MainThread): Global variable 'kSecAttrCanSign' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,3921 (MainThread): Global variable 'kSecAttrCanVerify' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,4017 (MainThread): Global variable 'kSecAttrKeyTypeAES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,4113 (MainThread): Global variable 'kSecAttrKeyTypeRC4' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,4210 (MainThread): Global variable 'kSecAttrKeyTypeRC2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,4305 (MainThread): Global variable 'kSecAttrKeyType3DES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,4397 (MainThread): Global variable 'kSecAttrKeyTypeDES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,31500 (MainThread): Global variable 'kCFAllocatorDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,31685 (MainThread): Global variable 'kCFTypeArrayCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,31795 (MainThread): Global variable 'kCFBooleanTrue' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,31898 (MainThread): Global variable 'kCFTypeDictionaryKeyCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,31998 (MainThread): Global variable 'kCFTypeDictionaryValueCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:18:33,176076 (MainThread): Partial parsing not enabled
+2020-02-23 22:18:33,179151 (MainThread): Parsing macros/core.sql
+2020-02-23 22:18:33,183300 (MainThread): Parsing macros/materializations/helpers.sql
+2020-02-23 22:18:33,190102 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-02-23 22:18:33,192115 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-02-23 22:18:33,204220 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-02-23 22:18:33,222957 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-02-23 22:18:33,240234 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-02-23 22:18:33,242513 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-02-23 22:18:33,249465 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-02-23 22:18:33,256704 (MainThread): Parsing macros/materializations/table/table.sql
+2020-02-23 22:18:33,263177 (MainThread): Parsing macros/materializations/view/view.sql
+2020-02-23 22:18:33,269480 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-02-23 22:18:33,276284 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-02-23 22:18:33,278594 (MainThread): Parsing macros/etc/query.sql
+2020-02-23 22:18:33,280938 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-02-23 22:18:33,283801 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-02-23 22:18:33,286815 (MainThread): Parsing macros/etc/datetime.sql
+2020-02-23 22:18:33,295587 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-02-23 22:18:33,297650 (MainThread): Parsing macros/adapters/common.sql
+2020-02-23 22:18:33,323880 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-02-23 22:18:33,325572 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-02-23 22:18:33,326807 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-02-23 22:18:33,328167 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-02-23 22:18:33,330963 (MainThread): Parsing macros/catalog.sql
+2020-02-23 22:18:33,333634 (MainThread): Parsing macros/adapters.sql
+2020-02-23 22:18:33,346367 (MainThread): Parsing macros/materializations/merge.sql
+2020-02-23 22:18:33,348689 (MainThread): Parsing macros/materializations/view.sql
+2020-02-23 22:18:33,349815 (MainThread): Parsing macros/materializations/table.sql
+2020-02-23 22:18:33,353937 (MainThread): Parsing macros/materializations/incremental.sql
+2020-02-23 22:18:33,383848 (MainThread): Partial parsing not enabled
+2020-02-23 22:18:33,384435 (MainThread): Parsing macros/get_custom_schema.sql
+2020-02-23 22:18:33,404064 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:18:33,404232 (MainThread): Opening a new connection, currently in state init
+2020-02-23 22:18:33,642972 (MainThread): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-02-23 22:18:44,990585 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:18:44,990834 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.stg_sample).
+2020-02-23 22:18:44,997400 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:18:44,997526 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:18:45,45651 (MainThread): Found 3 models, 0 tests, 0 snapshots, 0 analyses, 123 macros, 0 operations, 0 seed files, 0 sources
+2020-02-23 22:18:45,47576 (MainThread): 
+2020-02-23 22:18:45,48021 (MainThread): Acquiring new snowflake connection "master".
+2020-02-23 22:18:45,48129 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.sample).
+2020-02-23 22:18:45,129157 (MainThread): Using snowflake connection "master".
+2020-02-23 22:18:45,129334 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+
+    
+    select distinct schema_name
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.SCHEMATA
+    where catalog_name ilike 'upst_financial_reporting_dev'
+2020-02-23 22:18:45,928475 (MainThread): Snowflake error: 000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+
+2020-02-23 22:18:45,929223 (MainThread): Connection 'master' was left open.
+2020-02-23 22:18:45,929453 (MainThread): On master: Close
+2020-02-23 22:18:46,44253 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c73d410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c73d250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c73dd10>]}
+2020-02-23 22:18:46,459400 (MainThread): Flushing usage events
+2020-02-23 22:18:46,459798 (MainThread): Encountered an error:
+2020-02-23 22:18:46,460045 (MainThread): Database Error
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+2020-02-23 22:18:46,466126 (MainThread): Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 75, in exception_handler
+    yield
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/cursor.py", line 580, in execute
+    errvalue)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 97, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, errorclass, errorvalue)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 73, in default_errorhandler
+    done_format_msg=errorvalue.get(u'done_format_msg'))
+snowflake.connector.errors.ProgrammingError: 000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/main.py", line 80, in main
+    results, succeeded = handle_and_check(args)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/main.py", line 158, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/main.py", line 210, in run_from_args
+    results = task.run()
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/task/runnable.py", line 315, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/task/runnable.py", line 280, in execute_with_hooks
+    self.before_run(adapter, selected_uids)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/task/run.py", line 176, in before_run
+    self.create_schemas(adapter, selected_uids)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/task/runnable.py", line 347, in create_schemas
+    (db.lower(), s.lower()) for s in adapter.list_schemas(db))
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/impl.py", line 218, in list_schemas
+    kwargs={'database': database}
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/base/impl.py", line 980, in execute_macro
+    result = macro_function(**kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 667, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 102, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 696, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 32, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 40, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/base/impl.py", line 270, in execute
+    fetch=fetch
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 116, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 219, in add_query
+    abridge_sql_log=abridge_sql_log
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 82, in add_query
+    return connection, cursor
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 93, in exception_handler
+    raise dbt.exceptions.DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+
+2020-02-23 22:21:02,460170 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:21:02,818058 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,818272 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,818450 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,835835 (MainThread): Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+2020-02-23 22:21:02,836991 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,853873 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,858308 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,858352 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,858384 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,858415 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,858445 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,858473 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,858502 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,860328 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,860369 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,860400 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,860430 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,860462 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,860490 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:02,860517 (MainThread): invalid escape sequence \*
+2020-02-23 22:21:03,195811 (MainThread): invalid escape sequence \[
+2020-02-23 22:21:03,308741 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-02-23 22:21:03,310327 (MainThread): Tracking: tracking
+2020-02-23 22:21:03,310584 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11023a450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11023a490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11023a1d0>]}
+2020-02-23 22:21:03,690132 (MainThread): Global variable 'kSecRandomDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,690372 (MainThread): Global variable 'kSecPaddingKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,690515 (MainThread): Global variable 'kSecPaddingPKCS7Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,690631 (MainThread): Global variable 'kSecPaddingPKCS5Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,690765 (MainThread): Global variable 'kSecPaddingPKCS1Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,690896 (MainThread): Global variable 'kSecPaddingOAEPKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691015 (MainThread): Global variable 'kSecPaddingNoneKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691130 (MainThread): Global variable 'kSecModeCBCKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691243 (MainThread): Global variable 'kSecTransformInputAttributeName' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691342 (MainThread): Global variable 'kSecDigestTypeAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691439 (MainThread): Global variable 'kSecDigestLengthAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691536 (MainThread): Global variable 'kSecIVKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691632 (MainThread): Global variable 'kSecAttrIsExtractable' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691728 (MainThread): Global variable 'kSecDigestSHA1' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691824 (MainThread): Global variable 'kSecDigestSHA2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,691927 (MainThread): Global variable 'kSecDigestMD5' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692036 (MainThread): Global variable 'kSecAttrKeyType' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692138 (MainThread): Global variable 'kSecAttrKeyTypeRSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692239 (MainThread): Global variable 'kSecAttrKeyTypeDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692339 (MainThread): Global variable 'kSecAttrKeyTypeECDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692458 (MainThread): Global variable 'kSecAttrKeySizeInBits' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692565 (MainThread): Global variable 'kSecAttrLabel' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692667 (MainThread): Global variable 'kSecAttrCanSign' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692763 (MainThread): Global variable 'kSecAttrCanVerify' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692862 (MainThread): Global variable 'kSecAttrKeyTypeAES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,692958 (MainThread): Global variable 'kSecAttrKeyTypeRC4' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,693056 (MainThread): Global variable 'kSecAttrKeyTypeRC2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,693154 (MainThread): Global variable 'kSecAttrKeyType3DES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,693250 (MainThread): Global variable 'kSecAttrKeyTypeDES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,714285 (MainThread): Global variable 'kCFAllocatorDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,714435 (MainThread): Global variable 'kCFTypeArrayCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,714541 (MainThread): Global variable 'kCFBooleanTrue' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,714639 (MainThread): Global variable 'kCFTypeDictionaryKeyCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,714734 (MainThread): Global variable 'kCFTypeDictionaryValueCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:21:03,918015 (MainThread): Partial parsing not enabled
+2020-02-23 22:21:03,920147 (MainThread): Parsing macros/core.sql
+2020-02-23 22:21:03,923949 (MainThread): Parsing macros/materializations/helpers.sql
+2020-02-23 22:21:03,930806 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-02-23 22:21:03,932406 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-02-23 22:21:03,943537 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-02-23 22:21:03,961631 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-02-23 22:21:03,978507 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-02-23 22:21:03,980452 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-02-23 22:21:03,986925 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-02-23 22:21:03,993815 (MainThread): Parsing macros/materializations/table/table.sql
+2020-02-23 22:21:03,999776 (MainThread): Parsing macros/materializations/view/view.sql
+2020-02-23 22:21:04,5605 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-02-23 22:21:04,10516 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-02-23 22:21:04,11493 (MainThread): Parsing macros/etc/query.sql
+2020-02-23 22:21:04,12650 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-02-23 22:21:04,14386 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-02-23 22:21:04,16399 (MainThread): Parsing macros/etc/datetime.sql
+2020-02-23 22:21:04,24336 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-02-23 22:21:04,26243 (MainThread): Parsing macros/adapters/common.sql
+2020-02-23 22:21:04,51695 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-02-23 22:21:04,52912 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-02-23 22:21:04,53911 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-02-23 22:21:04,55056 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-02-23 22:21:04,57350 (MainThread): Parsing macros/catalog.sql
+2020-02-23 22:21:04,59511 (MainThread): Parsing macros/adapters.sql
+2020-02-23 22:21:04,69948 (MainThread): Parsing macros/materializations/merge.sql
+2020-02-23 22:21:04,71523 (MainThread): Parsing macros/materializations/view.sql
+2020-02-23 22:21:04,72191 (MainThread): Parsing macros/materializations/table.sql
+2020-02-23 22:21:04,75792 (MainThread): Parsing macros/materializations/incremental.sql
+2020-02-23 22:21:04,104629 (MainThread): Partial parsing not enabled
+2020-02-23 22:21:04,105019 (MainThread): Parsing macros/get_custom_schema.sql
+2020-02-23 22:21:04,123540 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:21:04,123673 (MainThread): Opening a new connection, currently in state init
+2020-02-23 22:21:04,426371 (MainThread): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-02-23 22:21:13,101779 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:21:13,102026 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.stg_sample).
+2020-02-23 22:21:13,108482 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:21:13,108603 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:21:13,155354 (MainThread): Found 3 models, 0 tests, 0 snapshots, 0 analyses, 123 macros, 0 operations, 0 seed files, 0 sources
+2020-02-23 22:21:13,157306 (MainThread): 
+2020-02-23 22:21:13,157743 (MainThread): Acquiring new snowflake connection "master".
+2020-02-23 22:21:13,157846 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.sample).
+2020-02-23 22:21:13,237337 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:13,237517 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+
+    
+    select distinct schema_name
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.SCHEMATA
+    where catalog_name ilike 'upst_financial_reporting_dev'
+2020-02-23 22:21:14,208216 (MainThread): SQL status: SUCCESS 1 in 0.97 seconds
+2020-02-23 22:21:14,222605 (MainThread): Creating schema "upst_financial_reporting_dev"."randy_pitcher_STAGING".
+2020-02-23 22:21:14,224772 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:14,224882 (MainThread): On master: BEGIN
+2020-02-23 22:21:14,455111 (MainThread): SQL status: SUCCESS 1 in 0.23 seconds
+2020-02-23 22:21:14,455421 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:14,455613 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_dev.randy_pitcher_STAGING
+2020-02-23 22:21:14,921931 (MainThread): SQL status: SUCCESS 1 in 0.47 seconds
+2020-02-23 22:21:14,923811 (MainThread): On master: COMMIT
+2020-02-23 22:21:14,924049 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:14,924202 (MainThread): On master: COMMIT
+2020-02-23 22:21:15,56525 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:21:15,56837 (MainThread): Creating schema "upst_financial_reporting_dev"."randy_pitcher_ANALYTICS".
+2020-02-23 22:21:15,60653 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:15,60821 (MainThread): On master: BEGIN
+2020-02-23 22:21:15,219794 (MainThread): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:21:15,220104 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:15,220298 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_dev.randy_pitcher_ANALYTICS
+2020-02-23 22:21:15,843395 (MainThread): SQL status: SUCCESS 1 in 0.62 seconds
+2020-02-23 22:21:15,845041 (MainThread): On master: COMMIT
+2020-02-23 22:21:15,845286 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:15,845450 (MainThread): On master: COMMIT
+2020-02-23 22:21:15,973206 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:21:15,973518 (MainThread): Creating schema "upst_financial_reporting_dev"."randy_pitcher_CURATED".
+2020-02-23 22:21:15,977253 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:15,977421 (MainThread): On master: BEGIN
+2020-02-23 22:21:16,129780 (MainThread): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:21:16,130087 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:16,130277 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_dev.randy_pitcher_CURATED
+2020-02-23 22:21:17,72506 (MainThread): SQL status: SUCCESS 1 in 0.94 seconds
+2020-02-23 22:21:17,74216 (MainThread): On master: COMMIT
+2020-02-23 22:21:17,74452 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:17,74604 (MainThread): On master: COMMIT
+2020-02-23 22:21:17,201780 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:21:17,246237 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:17,246387 (MainThread): On master: BEGIN
+2020-02-23 22:21:17,413499 (MainThread): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:21:17,413846 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:17,414043 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_analytics'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:21:18,915285 (MainThread): SQL status: SUCCESS 0 in 1.50 seconds
+2020-02-23 22:21:18,920561 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:18,920710 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_staging'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:21:20,144397 (MainThread): SQL status: SUCCESS 0 in 1.22 seconds
+2020-02-23 22:21:20,149713 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:20,149864 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_curated'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:21:21,66698 (MainThread): SQL status: SUCCESS 0 in 0.92 seconds
+2020-02-23 22:21:21,68358 (MainThread): On master: ROLLBACK
+2020-02-23 22:21:21,68501 (MainThread): initiating rollback
+2020-02-23 22:21:21,313554 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:21,313794 (MainThread): On master: BEGIN
+2020-02-23 22:21:21,634566 (MainThread): SQL status: SUCCESS 1 in 0.32 seconds
+2020-02-23 22:21:21,634889 (MainThread): On master: COMMIT
+2020-02-23 22:21:21,635107 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:21,635256 (MainThread): On master: COMMIT
+2020-02-23 22:21:21,873247 (MainThread): SQL status: SUCCESS 1 in 0.24 seconds
+2020-02-23 22:21:21,873824 (MainThread): 16:21:21 | Concurrency: 1 threads (target='dev')
+2020-02-23 22:21:21,874035 (MainThread): 16:21:21 | 
+2020-02-23 22:21:21,875482 (Thread-1): Began running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:21:21,875806 (Thread-1): 16:21:21 | 1 of 3 START view model randy_pitcher_CURATED.cur_sample............. [RUN]
+2020-02-23 22:21:21,876370 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:21:21,876543 (Thread-1): Opening a new connection, currently in state init
+2020-02-23 22:21:31,818532 (Thread-1): Compiling model.upst_financial_reporting.cur_sample
+2020-02-23 22:21:31,836096 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:21:31,836784 (Thread-1): finished collecting timing info
+2020-02-23 22:21:31,870290 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:21:31,871364 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:21:31,871492 (Thread-1): On model.upst_financial_reporting.cur_sample: BEGIN
+2020-02-23 22:21:32,32965 (Thread-1): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:21:32,33302 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:21:32,33504 (Thread-1): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.cur_sample"} */
+create or replace  view upst_financial_reporting_dev.randy_pitcher_CURATED.cur_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:21:32,565815 (Thread-1): SQL status: SUCCESS 1 in 0.53 seconds
+2020-02-23 22:21:32,569540 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:21:32,569737 (Thread-1): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.cur_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_dev.randy_pitcher_CURATED.cur_sample TO ROLE upst_financial_reporting_dev_READ
+2020-02-23 22:21:32,735096 (Thread-1): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:21:32,736844 (Thread-1): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:21:32,737154 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:21:32,737345 (Thread-1): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:21:32,883621 (Thread-1): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:21:32,885981 (Thread-1): finished collecting timing info
+2020-02-23 22:21:32,886868 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c468e1a2-e209-4311-a658-0fd614cd3d94', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110983990>]}
+2020-02-23 22:21:33,161861 (Thread-1): 16:21:33 | 1 of 3 OK created view model randy_pitcher_CURATED.cur_sample........ [SUCCESS 1 in 11.01s]
+2020-02-23 22:21:33,162255 (Thread-1): Finished running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:21:33,162551 (Thread-1): Began running node model.upst_financial_reporting.sample
+2020-02-23 22:21:33,163095 (Thread-1): 16:21:33 | 2 of 3 START table model randy_pitcher_ANALYTICS.sample.............. [RUN]
+2020-02-23 22:21:33,163662 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:21:33,163829 (Thread-1): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:21:33,163989 (Thread-1): Compiling model.upst_financial_reporting.sample
+2020-02-23 22:21:33,171905 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.sample"
+2020-02-23 22:21:33,172428 (Thread-1): finished collecting timing info
+2020-02-23 22:21:33,190939 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.sample"
+2020-02-23 22:21:33,191941 (Thread-1): Using snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:21:33,192055 (Thread-1): On model.upst_financial_reporting.sample: BEGIN
+2020-02-23 22:21:33,383647 (Thread-1): SQL status: SUCCESS 1 in 0.19 seconds
+2020-02-23 22:21:33,383961 (Thread-1): Using snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:21:33,384154 (Thread-1): On model.upst_financial_reporting.sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.sample"} */
+create or replace transient table upst_financial_reporting_dev.randy_pitcher_ANALYTICS.sample  as
+      (select 'hello' as greeting
+      );
+2020-02-23 22:21:33,607212 (Thread-1): Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 86 unexpected '.'.
+2020-02-23 22:21:33,607547 (Thread-1): On model.upst_financial_reporting.sample: ROLLBACK
+2020-02-23 22:21:33,607729 (Thread-1): initiating rollback
+2020-02-23 22:21:33,821866 (Thread-1): finished collecting timing info
+2020-02-23 22:21:33,823276 (Thread-1): Database Error in model sample (models/analytics/sample.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 86 unexpected '.'.
+  compiled SQL at target/run/upst_financial_reporting/analytics/sample.sql
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 75, in exception_handler
+    yield
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/cursor.py", line 580, in execute
+    errvalue)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 97, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, errorclass, errorvalue)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 73, in default_errorhandler
+    done_format_msg=errorvalue.get(u'done_format_msg'))
+snowflake.connector.errors.ProgrammingError: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 86 unexpected '.'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 218, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 161, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 260, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 435, in execute
+    result = materialization_macro.generator(context)()
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 59, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 40, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/base/impl.py", line 270, in execute
+    fetch=fetch
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 116, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 219, in add_query
+    abridge_sql_log=abridge_sql_log
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 82, in add_query
+    return connection, cursor
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 93, in exception_handler
+    raise dbt.exceptions.DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error in model sample (models/analytics/sample.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 86 unexpected '.'.
+  compiled SQL at target/run/upst_financial_reporting/analytics/sample.sql
+2020-02-23 22:21:33,827062 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c468e1a2-e209-4311-a658-0fd614cd3d94', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109838d0>]}
+2020-02-23 22:21:34,87319 (Thread-1): 16:21:34 | 2 of 3 ERROR creating table model randy_pitcher_ANALYTICS.sample..... [ERROR in 0.66s]
+2020-02-23 22:21:34,87661 (Thread-1): Finished running node model.upst_financial_reporting.sample
+2020-02-23 22:21:34,87898 (Thread-1): Began running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:21:34,88423 (Thread-1): 16:21:34 | 3 of 3 START view model randy_pitcher_STAGING.stg_sample............. [RUN]
+2020-02-23 22:21:34,88941 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:21:34,89098 (Thread-1): Re-using an available connection from the pool (formerly model.upst_financial_reporting.sample).
+2020-02-23 22:21:34,89256 (Thread-1): Compiling model.upst_financial_reporting.stg_sample
+2020-02-23 22:21:34,98430 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:21:34,99105 (Thread-1): finished collecting timing info
+2020-02-23 22:21:34,104204 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:21:34,104999 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:21:34,105113 (Thread-1): On model.upst_financial_reporting.stg_sample: BEGIN
+2020-02-23 22:21:34,270500 (Thread-1): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:21:34,270766 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:21:34,270920 (Thread-1): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.stg_sample"} */
+create or replace  view upst_financial_reporting_dev.randy_pitcher_STAGING.stg_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:21:34,957344 (Thread-1): SQL status: SUCCESS 1 in 0.69 seconds
+2020-02-23 22:21:34,961999 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:21:34,962231 (Thread-1): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.stg_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_dev.randy_pitcher_STAGING.stg_sample TO ROLE upst_financial_reporting_dev_READ
+2020-02-23 22:21:35,128839 (Thread-1): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:21:35,130506 (Thread-1): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:21:35,130746 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:21:35,130899 (Thread-1): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:21:35,266359 (Thread-1): SQL status: SUCCESS 1 in 0.14 seconds
+2020-02-23 22:21:35,269890 (Thread-1): finished collecting timing info
+2020-02-23 22:21:35,270903 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c468e1a2-e209-4311-a658-0fd614cd3d94', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1107c6050>]}
+2020-02-23 22:21:35,658378 (Thread-1): 16:21:35 | 3 of 3 OK created view model randy_pitcher_STAGING.stg_sample........ [SUCCESS 1 in 1.18s]
+2020-02-23 22:21:35,658690 (Thread-1): Finished running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:21:35,683491 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:35,683803 (MainThread): On master: BEGIN
+2020-02-23 22:21:35,867682 (MainThread): SQL status: SUCCESS 1 in 0.18 seconds
+2020-02-23 22:21:35,868020 (MainThread): On master: COMMIT
+2020-02-23 22:21:35,868300 (MainThread): Using snowflake connection "master".
+2020-02-23 22:21:35,868489 (MainThread): On master: COMMIT
+2020-02-23 22:21:36,84251 (MainThread): SQL status: SUCCESS 1 in 0.22 seconds
+2020-02-23 22:21:36,84994 (MainThread): 16:21:36 | 
+2020-02-23 22:21:36,85275 (MainThread): 16:21:36 | Finished running 2 view models, 1 table model in 22.93s.
+2020-02-23 22:21:36,85511 (MainThread): Connection 'master' was left open.
+2020-02-23 22:21:36,85706 (MainThread): On master: Close
+2020-02-23 22:21:36,301245 (MainThread): Connection 'model.upst_financial_reporting.stg_sample' was left open.
+2020-02-23 22:21:36,301495 (MainThread): On model.upst_financial_reporting.stg_sample: Close
+2020-02-23 22:21:36,746133 (MainThread): 
+2020-02-23 22:21:36,746350 (MainThread): Completed with 1 error and 0 warnings:
+2020-02-23 22:21:36,746500 (MainThread): 
+2020-02-23 22:21:36,746646 (MainThread): Database Error in model sample (models/analytics/sample.sql)
+2020-02-23 22:21:36,746791 (MainThread):   001003 (42000): SQL compilation error:
+2020-02-23 22:21:36,746917 (MainThread):   syntax error line 1 at position 86 unexpected '.'.
+2020-02-23 22:21:36,747039 (MainThread):   compiled SQL at target/run/upst_financial_reporting/analytics/sample.sql
+2020-02-23 22:21:36,747183 (MainThread): 
+Done. PASS=2 WARN=0 ERROR=1 SKIP=0 TOTAL=3
+2020-02-23 22:21:36,747458 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110a10390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110a10190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110a10f10>]}
+2020-02-23 22:21:37,6075 (MainThread): Flushing usage events
+2020-02-23 22:23:14,420831 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:23:14,453244 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.clean.CleanTask'>, debug=False, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, strict=False, target=None, test_new_parser=False, use_cache=True, vars='{}', warn_error=False, which='clean', write_json=True)
+2020-02-23 22:23:14,453844 (MainThread): Tracking: tracking
+2020-02-23 22:23:14,459932 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b08aad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b091f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10afefbd0>]}
+2020-02-23 22:23:14,690412 (MainThread): Checking target/*
+2020-02-23 22:23:14,694443 (MainThread):  Cleaned target/*
+2020-02-23 22:23:14,694721 (MainThread): Checking dbt_modules/*
+2020-02-23 22:23:14,695185 (MainThread):  Cleaned dbt_modules/*
+2020-02-23 22:23:14,695355 (MainThread): Finished cleaning all paths.
+2020-02-23 22:23:14,695655 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10afefbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10afef890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b08a990>]}
+2020-02-23 22:23:14,884316 (MainThread): Flushing usage events
+2020-02-23 22:23:19,818510 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:23:20,179039 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,179255 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,179435 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,196610 (MainThread): Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+2020-02-23 22:23:20,197627 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,214286 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,218691 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,218734 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,218766 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,218797 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,218827 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,218859 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,218889 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,220534 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,220574 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,220605 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,220636 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,220666 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,220694 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,220721 (MainThread): invalid escape sequence \*
+2020-02-23 22:23:20,560069 (MainThread): invalid escape sequence \[
+2020-02-23 22:23:20,674338 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-02-23 22:23:20,676048 (MainThread): Tracking: tracking
+2020-02-23 22:23:20,676320 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b736d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b73610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b73bd0>]}
+2020-02-23 22:23:21,25227 (MainThread): Global variable 'kSecRandomDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,25424 (MainThread): Global variable 'kSecPaddingKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,25538 (MainThread): Global variable 'kSecPaddingPKCS7Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,25645 (MainThread): Global variable 'kSecPaddingPKCS5Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,25749 (MainThread): Global variable 'kSecPaddingPKCS1Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,25854 (MainThread): Global variable 'kSecPaddingOAEPKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,25953 (MainThread): Global variable 'kSecPaddingNoneKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26051 (MainThread): Global variable 'kSecModeCBCKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26147 (MainThread): Global variable 'kSecTransformInputAttributeName' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26245 (MainThread): Global variable 'kSecDigestTypeAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26342 (MainThread): Global variable 'kSecDigestLengthAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26442 (MainThread): Global variable 'kSecIVKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26543 (MainThread): Global variable 'kSecAttrIsExtractable' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26639 (MainThread): Global variable 'kSecDigestSHA1' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26735 (MainThread): Global variable 'kSecDigestSHA2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26830 (MainThread): Global variable 'kSecDigestMD5' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,26947 (MainThread): Global variable 'kSecAttrKeyType' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27046 (MainThread): Global variable 'kSecAttrKeyTypeRSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27143 (MainThread): Global variable 'kSecAttrKeyTypeDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27244 (MainThread): Global variable 'kSecAttrKeyTypeECDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27340 (MainThread): Global variable 'kSecAttrKeySizeInBits' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27436 (MainThread): Global variable 'kSecAttrLabel' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27531 (MainThread): Global variable 'kSecAttrCanSign' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27625 (MainThread): Global variable 'kSecAttrCanVerify' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27719 (MainThread): Global variable 'kSecAttrKeyTypeAES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27813 (MainThread): Global variable 'kSecAttrKeyTypeRC4' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,27911 (MainThread): Global variable 'kSecAttrKeyTypeRC2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,28006 (MainThread): Global variable 'kSecAttrKeyType3DES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,28101 (MainThread): Global variable 'kSecAttrKeyTypeDES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,49064 (MainThread): Global variable 'kCFAllocatorDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,49209 (MainThread): Global variable 'kCFTypeArrayCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,49315 (MainThread): Global variable 'kCFBooleanTrue' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,49418 (MainThread): Global variable 'kCFTypeDictionaryKeyCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,49515 (MainThread): Global variable 'kCFTypeDictionaryValueCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:23:21,249530 (MainThread): Partial parsing not enabled
+2020-02-23 22:23:21,251652 (MainThread): Parsing macros/core.sql
+2020-02-23 22:23:21,255439 (MainThread): Parsing macros/materializations/helpers.sql
+2020-02-23 22:23:21,262250 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-02-23 22:23:21,263859 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-02-23 22:23:21,274395 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-02-23 22:23:21,292283 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-02-23 22:23:21,308901 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-02-23 22:23:21,310827 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-02-23 22:23:21,317086 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-02-23 22:23:21,323905 (MainThread): Parsing macros/materializations/table/table.sql
+2020-02-23 22:23:21,329874 (MainThread): Parsing macros/materializations/view/view.sql
+2020-02-23 22:23:21,335646 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-02-23 22:23:21,340419 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-02-23 22:23:21,341393 (MainThread): Parsing macros/etc/query.sql
+2020-02-23 22:23:21,342588 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-02-23 22:23:21,344331 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-02-23 22:23:21,346359 (MainThread): Parsing macros/etc/datetime.sql
+2020-02-23 22:23:21,354324 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-02-23 22:23:21,356218 (MainThread): Parsing macros/adapters/common.sql
+2020-02-23 22:23:21,381516 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-02-23 22:23:21,382757 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-02-23 22:23:21,383753 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-02-23 22:23:21,384901 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-02-23 22:23:21,387191 (MainThread): Parsing macros/catalog.sql
+2020-02-23 22:23:21,389359 (MainThread): Parsing macros/adapters.sql
+2020-02-23 22:23:21,400033 (MainThread): Parsing macros/materializations/merge.sql
+2020-02-23 22:23:21,401663 (MainThread): Parsing macros/materializations/view.sql
+2020-02-23 22:23:21,402333 (MainThread): Parsing macros/materializations/table.sql
+2020-02-23 22:23:21,405938 (MainThread): Parsing macros/materializations/incremental.sql
+2020-02-23 22:23:21,434177 (MainThread): Partial parsing not enabled
+2020-02-23 22:23:21,434604 (MainThread): Parsing macros/get_custom_schema.sql
+2020-02-23 22:23:21,453294 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:23:21,453434 (MainThread): Opening a new connection, currently in state init
+2020-02-23 22:23:22,135964 (MainThread): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-02-23 22:23:32,721753 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:23:32,721993 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.stg_sample).
+2020-02-23 22:23:32,728566 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:23:32,728691 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:23:32,776193 (MainThread): Found 3 models, 0 tests, 0 snapshots, 0 analyses, 123 macros, 0 operations, 0 seed files, 0 sources
+2020-02-23 22:23:32,778181 (MainThread): 
+2020-02-23 22:23:32,778626 (MainThread): Acquiring new snowflake connection "master".
+2020-02-23 22:23:32,778733 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.sample).
+2020-02-23 22:23:32,856522 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:32,856753 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+
+    
+    select distinct schema_name
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.SCHEMATA
+    where catalog_name ilike 'upst_financial_reporting_dev'
+2020-02-23 22:23:33,745336 (MainThread): SQL status: SUCCESS 4 in 0.89 seconds
+2020-02-23 22:23:33,797649 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:33,797826 (MainThread): On master: BEGIN
+2020-02-23 22:23:33,954715 (MainThread): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:23:33,955029 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:33,955227 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_curated'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:23:34,692329 (MainThread): SQL status: SUCCESS 1 in 0.74 seconds
+2020-02-23 22:23:34,698981 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:34,699134 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_analytics'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:23:37,668343 (MainThread): SQL status: SUCCESS 0 in 2.97 seconds
+2020-02-23 22:23:37,673661 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:37,673852 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_staging'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:23:39,872 (MainThread): SQL status: SUCCESS 1 in 1.33 seconds
+2020-02-23 22:23:39,7330 (MainThread): On master: ROLLBACK
+2020-02-23 22:23:39,7476 (MainThread): initiating rollback
+2020-02-23 22:23:39,231259 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:39,231559 (MainThread): On master: BEGIN
+2020-02-23 22:23:39,641776 (MainThread): SQL status: SUCCESS 1 in 0.41 seconds
+2020-02-23 22:23:39,642118 (MainThread): On master: COMMIT
+2020-02-23 22:23:39,642405 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:39,642597 (MainThread): On master: COMMIT
+2020-02-23 22:23:39,870066 (MainThread): SQL status: SUCCESS 1 in 0.23 seconds
+2020-02-23 22:23:39,870793 (MainThread): 16:23:39 | Concurrency: 1 threads (target='dev')
+2020-02-23 22:23:39,871090 (MainThread): 16:23:39 | 
+2020-02-23 22:23:39,872759 (Thread-1): Began running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:23:39,873064 (Thread-1): 16:23:39 | 1 of 3 START view model randy_pitcher_CURATED.cur_sample............. [RUN]
+2020-02-23 22:23:39,873514 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:23:39,873684 (Thread-1): Opening a new connection, currently in state init
+2020-02-23 22:23:50,59710 (Thread-1): Compiling model.upst_financial_reporting.cur_sample
+2020-02-23 22:23:50,77865 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:23:50,78550 (Thread-1): finished collecting timing info
+2020-02-23 22:23:50,113006 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:23:50,114059 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:23:50,114188 (Thread-1): On model.upst_financial_reporting.cur_sample: BEGIN
+2020-02-23 22:23:50,287321 (Thread-1): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:23:50,287656 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:23:50,287856 (Thread-1): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.cur_sample"} */
+create or replace  view upst_financial_reporting_dev.randy_pitcher_CURATED.cur_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:23:50,980380 (Thread-1): SQL status: SUCCESS 1 in 0.69 seconds
+2020-02-23 22:23:50,985010 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:23:50,985188 (Thread-1): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.cur_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_dev.randy_pitcher_CURATED.cur_sample TO ROLE upst_financial_reporting_dev_READ
+2020-02-23 22:23:51,213072 (Thread-1): SQL status: SUCCESS 1 in 0.23 seconds
+2020-02-23 22:23:51,214811 (Thread-1): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:23:51,215126 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:23:51,215323 (Thread-1): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:23:51,901987 (Thread-1): SQL status: SUCCESS 1 in 0.69 seconds
+2020-02-23 22:23:51,905452 (Thread-1): finished collecting timing info
+2020-02-23 22:23:51,906559 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ec8f8ffa-cf77-4325-88ac-6745a7b77919', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10925ba90>]}
+2020-02-23 22:23:52,175087 (Thread-1): 16:23:52 | 1 of 3 OK created view model randy_pitcher_CURATED.cur_sample........ [SUCCESS 1 in 12.03s]
+2020-02-23 22:23:52,175427 (Thread-1): Finished running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:23:52,175683 (Thread-1): Began running node model.upst_financial_reporting.sample
+2020-02-23 22:23:52,176215 (Thread-1): 16:23:52 | 2 of 3 START table model randy_pitcher_ANALYTICS.sample.............. [RUN]
+2020-02-23 22:23:52,176753 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:23:52,176919 (Thread-1): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:23:52,177084 (Thread-1): Compiling model.upst_financial_reporting.sample
+2020-02-23 22:23:52,184993 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.sample"
+2020-02-23 22:23:52,185520 (Thread-1): finished collecting timing info
+2020-02-23 22:23:52,199851 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.sample"
+2020-02-23 22:23:52,200858 (Thread-1): Using snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:23:52,200975 (Thread-1): On model.upst_financial_reporting.sample: BEGIN
+2020-02-23 22:23:52,823636 (Thread-1): SQL status: SUCCESS 1 in 0.62 seconds
+2020-02-23 22:23:52,823960 (Thread-1): Using snowflake connection "model.upst_financial_reporting.sample".
+2020-02-23 22:23:52,824159 (Thread-1): On model.upst_financial_reporting.sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.sample"} */
+create or replace transient table upst_financial_reporting_dev.randy_pitcher_ANALYTICS.sample  as
+      (select 'hello' as greeting
+      );
+2020-02-23 22:23:53,48281 (Thread-1): Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 86 unexpected '.'.
+2020-02-23 22:23:53,48610 (Thread-1): On model.upst_financial_reporting.sample: ROLLBACK
+2020-02-23 22:23:53,48807 (Thread-1): initiating rollback
+2020-02-23 22:23:53,433196 (Thread-1): finished collecting timing info
+2020-02-23 22:23:53,434127 (Thread-1): Database Error in model sample (models/analytics/sample.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 86 unexpected '.'.
+  compiled SQL at target/run/upst_financial_reporting/analytics/sample.sql
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 75, in exception_handler
+    yield
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/cursor.py", line 580, in execute
+    errvalue)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 97, in errorhandler_wrapper
+    cursor.errorhandler(connection, cursor, errorclass, errorvalue)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 73, in default_errorhandler
+    done_format_msg=errorvalue.get(u'done_format_msg'))
+snowflake.connector.errors.ProgrammingError: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 86 unexpected '.'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 218, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 161, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 260, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/node_runners.py", line 435, in execute
+    result = materialization_macro.generator(context)()
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 59, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 155, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 570, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 110, in _invoke
+    return original_invoke(self, arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 574, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 40, in macro
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 440, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 262, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/base/impl.py", line 270, in execute
+    fetch=fetch
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 116, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 219, in add_query
+    abridge_sql_log=abridge_sql_log
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 82, in add_query
+    return connection, cursor
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 93, in exception_handler
+    raise dbt.exceptions.DatabaseException(msg)
+dbt.exceptions.DatabaseException: Database Error in model sample (models/analytics/sample.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 86 unexpected '.'.
+  compiled SQL at target/run/upst_financial_reporting/analytics/sample.sql
+2020-02-23 22:23:53,438162 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ec8f8ffa-cf77-4325-88ac-6745a7b77919', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10932b390>]}
+2020-02-23 22:23:53,831117 (Thread-1): 16:23:53 | 2 of 3 ERROR creating table model randy_pitcher_ANALYTICS.sample..... [ERROR in 1.26s]
+2020-02-23 22:23:53,831436 (Thread-1): Finished running node model.upst_financial_reporting.sample
+2020-02-23 22:23:53,831679 (Thread-1): Began running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:23:53,832185 (Thread-1): 16:23:53 | 3 of 3 START view model randy_pitcher_STAGING.stg_sample............. [RUN]
+2020-02-23 22:23:53,832706 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:23:53,832867 (Thread-1): Re-using an available connection from the pool (formerly model.upst_financial_reporting.sample).
+2020-02-23 22:23:53,833029 (Thread-1): Compiling model.upst_financial_reporting.stg_sample
+2020-02-23 22:23:53,841898 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:23:53,842678 (Thread-1): finished collecting timing info
+2020-02-23 22:23:53,849355 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:23:53,850431 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:23:53,850596 (Thread-1): On model.upst_financial_reporting.stg_sample: BEGIN
+2020-02-23 22:23:54,18264 (Thread-1): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:23:54,18590 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:23:54,18791 (Thread-1): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.stg_sample"} */
+create or replace  view upst_financial_reporting_dev.randy_pitcher_STAGING.stg_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:23:54,846611 (Thread-1): SQL status: SUCCESS 1 in 0.83 seconds
+2020-02-23 22:23:54,850511 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:23:54,850689 (Thread-1): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.stg_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_dev.randy_pitcher_STAGING.stg_sample TO ROLE upst_financial_reporting_dev_READ
+2020-02-23 22:23:55,29655 (Thread-1): SQL status: SUCCESS 1 in 0.18 seconds
+2020-02-23 22:23:55,31397 (Thread-1): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:23:55,31710 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:23:55,31911 (Thread-1): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:23:55,151250 (Thread-1): SQL status: SUCCESS 1 in 0.12 seconds
+2020-02-23 22:23:55,155251 (Thread-1): finished collecting timing info
+2020-02-23 22:23:55,156265 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ec8f8ffa-cf77-4325-88ac-6745a7b77919', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10928dbd0>]}
+2020-02-23 22:23:55,449919 (Thread-1): 16:23:55 | 3 of 3 OK created view model randy_pitcher_STAGING.stg_sample........ [SUCCESS 1 in 1.32s]
+2020-02-23 22:23:55,450240 (Thread-1): Finished running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:23:55,503805 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:55,504132 (MainThread): On master: BEGIN
+2020-02-23 22:23:55,895699 (MainThread): SQL status: SUCCESS 1 in 0.39 seconds
+2020-02-23 22:23:55,896038 (MainThread): On master: COMMIT
+2020-02-23 22:23:55,896325 (MainThread): Using snowflake connection "master".
+2020-02-23 22:23:55,896522 (MainThread): On master: COMMIT
+2020-02-23 22:23:56,144316 (MainThread): SQL status: SUCCESS 1 in 0.25 seconds
+2020-02-23 22:23:56,145073 (MainThread): 16:23:56 | 
+2020-02-23 22:23:56,145359 (MainThread): 16:23:56 | Finished running 2 view models, 1 table model in 23.37s.
+2020-02-23 22:23:56,145601 (MainThread): Connection 'master' was left open.
+2020-02-23 22:23:56,145793 (MainThread): On master: Close
+2020-02-23 22:23:56,375344 (MainThread): Connection 'model.upst_financial_reporting.stg_sample' was left open.
+2020-02-23 22:23:56,375598 (MainThread): On model.upst_financial_reporting.stg_sample: Close
+2020-02-23 22:23:56,587147 (MainThread): 
+2020-02-23 22:23:56,587416 (MainThread): Completed with 1 error and 0 warnings:
+2020-02-23 22:23:56,587570 (MainThread): 
+2020-02-23 22:23:56,587731 (MainThread): Database Error in model sample (models/analytics/sample.sql)
+2020-02-23 22:23:56,587871 (MainThread):   001003 (42000): SQL compilation error:
+2020-02-23 22:23:56,588002 (MainThread):   syntax error line 1 at position 86 unexpected '.'.
+2020-02-23 22:23:56,588132 (MainThread):   compiled SQL at target/run/upst_financial_reporting/analytics/sample.sql
+2020-02-23 22:23:56,588283 (MainThread): 
+Done. PASS=2 WARN=0 ERROR=1 SKIP=0 TOTAL=3
+2020-02-23 22:23:56,588574 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e5ee50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086a3210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10930f790>]}
+2020-02-23 22:23:56,980419 (MainThread): Flushing usage events
+2020-02-23 22:25:32,455259 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:25:32,487471 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.clean.CleanTask'>, debug=False, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, strict=False, target=None, test_new_parser=False, use_cache=True, vars='{}', warn_error=False, which='clean', write_json=True)
+2020-02-23 22:25:32,488046 (MainThread): Tracking: tracking
+2020-02-23 22:25:32,494159 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a9e910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a02610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a02a50>]}
+2020-02-23 22:25:32,731145 (MainThread): Checking target/*
+2020-02-23 22:25:32,734974 (MainThread):  Cleaned target/*
+2020-02-23 22:25:32,735274 (MainThread): Checking dbt_modules/*
+2020-02-23 22:25:32,735876 (MainThread):  Cleaned dbt_modules/*
+2020-02-23 22:25:32,736061 (MainThread): Finished cleaning all paths.
+2020-02-23 22:25:32,736384 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a02110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a021d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a02b90>]}
+2020-02-23 22:25:32,930053 (MainThread): Flushing usage events
+2020-02-23 22:25:35,381162 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:25:35,739750 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,739962 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,740144 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,757467 (MainThread): Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+2020-02-23 22:25:35,758642 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,775228 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,779618 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,779660 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,779691 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,779722 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,779753 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,779781 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,779809 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,781452 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,781493 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,781525 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,781556 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,781585 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,781613 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:35,781640 (MainThread): invalid escape sequence \*
+2020-02-23 22:25:36,113931 (MainThread): invalid escape sequence \[
+2020-02-23 22:25:36,226554 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-02-23 22:25:36,228210 (MainThread): Tracking: tracking
+2020-02-23 22:25:36,228498 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d413d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d41750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d41450>]}
+2020-02-23 22:25:36,490228 (MainThread): Global variable 'kSecRandomDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,490419 (MainThread): Global variable 'kSecPaddingKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,490528 (MainThread): Global variable 'kSecPaddingPKCS7Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,490635 (MainThread): Global variable 'kSecPaddingPKCS5Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,490735 (MainThread): Global variable 'kSecPaddingPKCS1Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,490835 (MainThread): Global variable 'kSecPaddingOAEPKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,490930 (MainThread): Global variable 'kSecPaddingNoneKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491025 (MainThread): Global variable 'kSecModeCBCKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491118 (MainThread): Global variable 'kSecTransformInputAttributeName' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491212 (MainThread): Global variable 'kSecDigestTypeAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491309 (MainThread): Global variable 'kSecDigestLengthAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491403 (MainThread): Global variable 'kSecIVKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491496 (MainThread): Global variable 'kSecAttrIsExtractable' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491589 (MainThread): Global variable 'kSecDigestSHA1' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491680 (MainThread): Global variable 'kSecDigestSHA2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491772 (MainThread): Global variable 'kSecDigestMD5' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,491886 (MainThread): Global variable 'kSecAttrKeyType' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492001 (MainThread): Global variable 'kSecAttrKeyTypeRSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492107 (MainThread): Global variable 'kSecAttrKeyTypeDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492203 (MainThread): Global variable 'kSecAttrKeyTypeECDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492300 (MainThread): Global variable 'kSecAttrKeySizeInBits' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492405 (MainThread): Global variable 'kSecAttrLabel' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492502 (MainThread): Global variable 'kSecAttrCanSign' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492598 (MainThread): Global variable 'kSecAttrCanVerify' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492696 (MainThread): Global variable 'kSecAttrKeyTypeAES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492792 (MainThread): Global variable 'kSecAttrKeyTypeRC4' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492885 (MainThread): Global variable 'kSecAttrKeyTypeRC2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,492979 (MainThread): Global variable 'kSecAttrKeyType3DES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,493074 (MainThread): Global variable 'kSecAttrKeyTypeDES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,513151 (MainThread): Global variable 'kCFAllocatorDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,513314 (MainThread): Global variable 'kCFTypeArrayCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,513422 (MainThread): Global variable 'kCFBooleanTrue' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,513524 (MainThread): Global variable 'kCFTypeDictionaryKeyCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,513622 (MainThread): Global variable 'kCFTypeDictionaryValueCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:25:36,685616 (MainThread): Partial parsing not enabled
+2020-02-23 22:25:36,687762 (MainThread): Parsing macros/core.sql
+2020-02-23 22:25:36,691701 (MainThread): Parsing macros/materializations/helpers.sql
+2020-02-23 22:25:36,698591 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-02-23 22:25:36,700199 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-02-23 22:25:36,711088 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-02-23 22:25:36,728997 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-02-23 22:25:36,746119 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-02-23 22:25:36,748002 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-02-23 22:25:36,754275 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-02-23 22:25:36,761473 (MainThread): Parsing macros/materializations/table/table.sql
+2020-02-23 22:25:36,767428 (MainThread): Parsing macros/materializations/view/view.sql
+2020-02-23 22:25:36,773193 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-02-23 22:25:36,778053 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-02-23 22:25:36,779037 (MainThread): Parsing macros/etc/query.sql
+2020-02-23 22:25:36,780276 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-02-23 22:25:36,782010 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-02-23 22:25:36,784034 (MainThread): Parsing macros/etc/datetime.sql
+2020-02-23 22:25:36,791914 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-02-23 22:25:36,793810 (MainThread): Parsing macros/adapters/common.sql
+2020-02-23 22:25:36,818978 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-02-23 22:25:36,820302 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-02-23 22:25:36,821366 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-02-23 22:25:36,822519 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-02-23 22:25:36,824807 (MainThread): Parsing macros/catalog.sql
+2020-02-23 22:25:36,826977 (MainThread): Parsing macros/adapters.sql
+2020-02-23 22:25:36,838195 (MainThread): Parsing macros/materializations/merge.sql
+2020-02-23 22:25:36,839846 (MainThread): Parsing macros/materializations/view.sql
+2020-02-23 22:25:36,840539 (MainThread): Parsing macros/materializations/table.sql
+2020-02-23 22:25:36,844141 (MainThread): Parsing macros/materializations/incremental.sql
+2020-02-23 22:25:36,872814 (MainThread): Partial parsing not enabled
+2020-02-23 22:25:36,873216 (MainThread): Parsing macros/get_custom_schema.sql
+2020-02-23 22:25:36,891673 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:25:36,891793 (MainThread): Opening a new connection, currently in state init
+2020-02-23 22:25:37,203844 (MainThread): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-02-23 22:25:45,897198 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:25:45,897441 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.stg_sample).
+2020-02-23 22:25:45,903909 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.analytics_sample".
+2020-02-23 22:25:45,904027 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:25:45,951105 (MainThread): Found 3 models, 0 tests, 0 snapshots, 0 analyses, 123 macros, 0 operations, 0 seed files, 0 sources
+2020-02-23 22:25:45,953020 (MainThread): 
+2020-02-23 22:25:45,953473 (MainThread): Acquiring new snowflake connection "master".
+2020-02-23 22:25:45,953579 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.analytics_sample).
+2020-02-23 22:25:46,33536 (MainThread): Using snowflake connection "master".
+2020-02-23 22:25:46,33716 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+
+    
+    select distinct schema_name
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.SCHEMATA
+    where catalog_name ilike 'upst_financial_reporting_dev'
+2020-02-23 22:25:48,24512 (MainThread): SQL status: SUCCESS 4 in 1.99 seconds
+2020-02-23 22:25:48,77983 (MainThread): Using snowflake connection "master".
+2020-02-23 22:25:48,78173 (MainThread): On master: BEGIN
+2020-02-23 22:25:48,231490 (MainThread): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:25:48,231807 (MainThread): Using snowflake connection "master".
+2020-02-23 22:25:48,232006 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_analytics'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:25:49,867911 (MainThread): SQL status: SUCCESS 0 in 1.64 seconds
+2020-02-23 22:25:49,873478 (MainThread): Using snowflake connection "master".
+2020-02-23 22:25:49,873636 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_staging'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:25:50,788639 (MainThread): SQL status: SUCCESS 1 in 0.91 seconds
+2020-02-23 22:25:50,795909 (MainThread): Using snowflake connection "master".
+2020-02-23 22:25:50,796065 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_dev.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_curated'
+      and table_catalog ilike 'upst_financial_reporting_dev'
+2020-02-23 22:25:51,570540 (MainThread): SQL status: SUCCESS 1 in 0.77 seconds
+2020-02-23 22:25:51,572729 (MainThread): On master: ROLLBACK
+2020-02-23 22:25:51,572848 (MainThread): initiating rollback
+2020-02-23 22:25:51,982989 (MainThread): Using snowflake connection "master".
+2020-02-23 22:25:51,983287 (MainThread): On master: BEGIN
+2020-02-23 22:25:52,140616 (MainThread): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:25:52,140960 (MainThread): On master: COMMIT
+2020-02-23 22:25:52,141252 (MainThread): Using snowflake connection "master".
+2020-02-23 22:25:52,141446 (MainThread): On master: COMMIT
+2020-02-23 22:25:52,354759 (MainThread): SQL status: SUCCESS 1 in 0.21 seconds
+2020-02-23 22:25:52,355490 (MainThread): 16:25:52 | Concurrency: 1 threads (target='dev')
+2020-02-23 22:25:52,355784 (MainThread): 16:25:52 | 
+2020-02-23 22:25:52,357654 (Thread-1): Began running node model.upst_financial_reporting.analytics_sample
+2020-02-23 22:25:52,358008 (Thread-1): 16:25:52 | 1 of 3 START table model randy_pitcher_ANALYTICS.analytics_sample.... [RUN]
+2020-02-23 22:25:52,358613 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.analytics_sample".
+2020-02-23 22:25:52,358814 (Thread-1): Opening a new connection, currently in state init
+2020-02-23 22:26:00,927889 (Thread-1): Compiling model.upst_financial_reporting.analytics_sample
+2020-02-23 22:26:00,946487 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.analytics_sample"
+2020-02-23 22:26:00,947233 (Thread-1): finished collecting timing info
+2020-02-23 22:26:00,978984 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.analytics_sample"
+2020-02-23 22:26:00,980096 (Thread-1): Using snowflake connection "model.upst_financial_reporting.analytics_sample".
+2020-02-23 22:26:00,980217 (Thread-1): On model.upst_financial_reporting.analytics_sample: BEGIN
+2020-02-23 22:26:01,169033 (Thread-1): SQL status: SUCCESS 1 in 0.19 seconds
+2020-02-23 22:26:01,169275 (Thread-1): Using snowflake connection "model.upst_financial_reporting.analytics_sample".
+2020-02-23 22:26:01,169413 (Thread-1): On model.upst_financial_reporting.analytics_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.analytics_sample"} */
+create or replace transient table upst_financial_reporting_dev.randy_pitcher_ANALYTICS.analytics_sample  as
+      (select 'hello' as greeting
+      );
+2020-02-23 22:26:02,96802 (Thread-1): SQL status: SUCCESS 1 in 0.93 seconds
+2020-02-23 22:26:02,101491 (Thread-1): Using snowflake connection "model.upst_financial_reporting.analytics_sample".
+2020-02-23 22:26:02,101669 (Thread-1): On model.upst_financial_reporting.analytics_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.analytics_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_dev.randy_pitcher_ANALYTICS.analytics_sample TO ROLE upst_financial_reporting_dev_READ
+2020-02-23 22:26:02,463055 (Thread-1): SQL status: SUCCESS 1 in 0.36 seconds
+2020-02-23 22:26:02,464750 (Thread-1): On model.upst_financial_reporting.analytics_sample: COMMIT
+2020-02-23 22:26:02,464996 (Thread-1): Using snowflake connection "model.upst_financial_reporting.analytics_sample".
+2020-02-23 22:26:02,465152 (Thread-1): On model.upst_financial_reporting.analytics_sample: COMMIT
+2020-02-23 22:26:02,608251 (Thread-1): SQL status: SUCCESS 1 in 0.14 seconds
+2020-02-23 22:26:02,611835 (Thread-1): finished collecting timing info
+2020-02-23 22:26:02,612926 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a983beec-8879-4394-8484-8dc2f8cb91bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055327d0>]}
+2020-02-23 22:26:02,877731 (Thread-1): 16:26:02 | 1 of 3 OK created table model randy_pitcher_ANALYTICS.analytics_sample [SUCCESS 1 in 10.25s]
+2020-02-23 22:26:02,878076 (Thread-1): Finished running node model.upst_financial_reporting.analytics_sample
+2020-02-23 22:26:02,878336 (Thread-1): Began running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:26:02,878828 (Thread-1): 16:26:02 | 2 of 3 START view model randy_pitcher_CURATED.cur_sample............. [RUN]
+2020-02-23 22:26:02,879372 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:26:02,879539 (Thread-1): Re-using an available connection from the pool (formerly model.upst_financial_reporting.analytics_sample).
+2020-02-23 22:26:02,879703 (Thread-1): Compiling model.upst_financial_reporting.cur_sample
+2020-02-23 22:26:02,887672 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:26:02,888223 (Thread-1): finished collecting timing info
+2020-02-23 22:26:02,906784 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:26:02,907709 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:26:02,907833 (Thread-1): On model.upst_financial_reporting.cur_sample: BEGIN
+2020-02-23 22:26:03,65090 (Thread-1): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:26:03,65408 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:26:03,65610 (Thread-1): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.cur_sample"} */
+create or replace  view upst_financial_reporting_dev.randy_pitcher_CURATED.cur_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:26:03,843105 (Thread-1): SQL status: SUCCESS 1 in 0.78 seconds
+2020-02-23 22:26:03,847029 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:26:03,847193 (Thread-1): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.cur_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_dev.randy_pitcher_CURATED.cur_sample TO ROLE upst_financial_reporting_dev_READ
+2020-02-23 22:26:04,11582 (Thread-1): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:26:04,13306 (Thread-1): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:26:04,13553 (Thread-1): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:26:04,13710 (Thread-1): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:26:04,138787 (Thread-1): SQL status: SUCCESS 1 in 0.12 seconds
+2020-02-23 22:26:04,142660 (Thread-1): finished collecting timing info
+2020-02-23 22:26:04,143774 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a983beec-8879-4394-8484-8dc2f8cb91bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054a9990>]}
+2020-02-23 22:26:04,405403 (Thread-1): 16:26:04 | 2 of 3 OK created view model randy_pitcher_CURATED.cur_sample........ [SUCCESS 1 in 1.26s]
+2020-02-23 22:26:04,405718 (Thread-1): Finished running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:26:04,405955 (Thread-1): Began running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:26:04,406356 (Thread-1): 16:26:04 | 3 of 3 START view model randy_pitcher_STAGING.stg_sample............. [RUN]
+2020-02-23 22:26:04,406870 (Thread-1): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:26:04,407030 (Thread-1): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:26:04,407193 (Thread-1): Compiling model.upst_financial_reporting.stg_sample
+2020-02-23 22:26:04,415059 (Thread-1): Writing injected SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:26:04,415677 (Thread-1): finished collecting timing info
+2020-02-23 22:26:04,421068 (Thread-1): Writing runtime SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:26:04,422014 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:26:04,422128 (Thread-1): On model.upst_financial_reporting.stg_sample: BEGIN
+2020-02-23 22:26:04,574568 (Thread-1): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:26:04,574820 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:26:04,574975 (Thread-1): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.stg_sample"} */
+create or replace  view upst_financial_reporting_dev.randy_pitcher_STAGING.stg_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:26:06,149404 (Thread-1): SQL status: SUCCESS 1 in 1.57 seconds
+2020-02-23 22:26:06,153451 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:26:06,153634 (Thread-1): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "dev", "node_id": "model.upst_financial_reporting.stg_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_dev.randy_pitcher_STAGING.stg_sample TO ROLE upst_financial_reporting_dev_READ
+2020-02-23 22:26:06,410385 (Thread-1): SQL status: SUCCESS 1 in 0.26 seconds
+2020-02-23 22:26:06,412118 (Thread-1): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:26:06,412432 (Thread-1): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:26:06,412627 (Thread-1): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:26:06,546518 (Thread-1): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:26:06,550511 (Thread-1): finished collecting timing info
+2020-02-23 22:26:06,551512 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a983beec-8879-4394-8484-8dc2f8cb91bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054bc310>]}
+2020-02-23 22:26:07,287895 (Thread-1): 16:26:07 | 3 of 3 OK created view model randy_pitcher_STAGING.stg_sample........ [SUCCESS 1 in 2.14s]
+2020-02-23 22:26:07,288215 (Thread-1): Finished running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:26:07,355474 (MainThread): Using snowflake connection "master".
+2020-02-23 22:26:07,355799 (MainThread): On master: BEGIN
+2020-02-23 22:26:07,506473 (MainThread): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:26:07,506691 (MainThread): On master: COMMIT
+2020-02-23 22:26:07,506848 (MainThread): Using snowflake connection "master".
+2020-02-23 22:26:07,506949 (MainThread): On master: COMMIT
+2020-02-23 22:26:07,890954 (MainThread): SQL status: SUCCESS 1 in 0.38 seconds
+2020-02-23 22:26:07,891579 (MainThread): 16:26:07 | 
+2020-02-23 22:26:07,891864 (MainThread): 16:26:07 | Finished running 1 table model, 2 view models in 21.94s.
+2020-02-23 22:26:07,892017 (MainThread): Connection 'master' was left open.
+2020-02-23 22:26:07,892131 (MainThread): On master: Close
+2020-02-23 22:26:08,151910 (MainThread): Connection 'model.upst_financial_reporting.stg_sample' was left open.
+2020-02-23 22:26:08,152195 (MainThread): On model.upst_financial_reporting.stg_sample: Close
+2020-02-23 22:26:08,373175 (MainThread): 
+2020-02-23 22:26:08,373396 (MainThread): Completed successfully
+2020-02-23 22:26:08,373554 (MainThread): 
+Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+2020-02-23 22:26:08,373859 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053ede90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105531210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054a9350>]}
+2020-02-23 22:26:08,636670 (MainThread): Flushing usage events
+2020-02-23 22:27:02,541425 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:27:02,901198 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,901438 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,901633 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,919183 (MainThread): Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+2020-02-23 22:27:02,920269 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,937053 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,941448 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,941492 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,941525 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,941557 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,941587 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,941616 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,941649 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,943370 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,943411 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,943443 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,943475 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,943505 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,943533 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:02,943561 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:03,278133 (MainThread): invalid escape sequence \[
+2020-02-23 22:27:03,392095 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target='test', test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-02-23 22:27:03,393794 (MainThread): Tracking: tracking
+2020-02-23 22:27:03,394086 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107463210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107463510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107357450>]}
+2020-02-23 22:27:03,677268 (MainThread): Global variable 'kSecRandomDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,677465 (MainThread): Global variable 'kSecPaddingKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,677577 (MainThread): Global variable 'kSecPaddingPKCS7Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,677684 (MainThread): Global variable 'kSecPaddingPKCS5Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,677786 (MainThread): Global variable 'kSecPaddingPKCS1Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,677886 (MainThread): Global variable 'kSecPaddingOAEPKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,677983 (MainThread): Global variable 'kSecPaddingNoneKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678080 (MainThread): Global variable 'kSecModeCBCKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678181 (MainThread): Global variable 'kSecTransformInputAttributeName' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678282 (MainThread): Global variable 'kSecDigestTypeAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678378 (MainThread): Global variable 'kSecDigestLengthAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678475 (MainThread): Global variable 'kSecIVKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678571 (MainThread): Global variable 'kSecAttrIsExtractable' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678666 (MainThread): Global variable 'kSecDigestSHA1' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678761 (MainThread): Global variable 'kSecDigestSHA2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678860 (MainThread): Global variable 'kSecDigestMD5' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,678960 (MainThread): Global variable 'kSecAttrKeyType' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679056 (MainThread): Global variable 'kSecAttrKeyTypeRSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679154 (MainThread): Global variable 'kSecAttrKeyTypeDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679251 (MainThread): Global variable 'kSecAttrKeyTypeECDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679346 (MainThread): Global variable 'kSecAttrKeySizeInBits' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679447 (MainThread): Global variable 'kSecAttrLabel' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679546 (MainThread): Global variable 'kSecAttrCanSign' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679645 (MainThread): Global variable 'kSecAttrCanVerify' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679744 (MainThread): Global variable 'kSecAttrKeyTypeAES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679838 (MainThread): Global variable 'kSecAttrKeyTypeRC4' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,679935 (MainThread): Global variable 'kSecAttrKeyTypeRC2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,680033 (MainThread): Global variable 'kSecAttrKeyType3DES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,680130 (MainThread): Global variable 'kSecAttrKeyTypeDES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,701881 (MainThread): Global variable 'kCFAllocatorDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,702066 (MainThread): Global variable 'kCFTypeArrayCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,702184 (MainThread): Global variable 'kCFBooleanTrue' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,702301 (MainThread): Global variable 'kCFTypeDictionaryKeyCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,702410 (MainThread): Global variable 'kCFTypeDictionaryValueCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:03,877254 (MainThread): Partial parsing not enabled
+2020-02-23 22:27:03,879391 (MainThread): Parsing macros/core.sql
+2020-02-23 22:27:03,883376 (MainThread): Parsing macros/materializations/helpers.sql
+2020-02-23 22:27:03,890295 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-02-23 22:27:03,891920 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-02-23 22:27:03,903626 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-02-23 22:27:03,923180 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-02-23 22:27:03,939884 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-02-23 22:27:03,941773 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-02-23 22:27:03,948091 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-02-23 22:27:03,955209 (MainThread): Parsing macros/materializations/table/table.sql
+2020-02-23 22:27:03,961209 (MainThread): Parsing macros/materializations/view/view.sql
+2020-02-23 22:27:03,967144 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-02-23 22:27:03,971916 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-02-23 22:27:03,972899 (MainThread): Parsing macros/etc/query.sql
+2020-02-23 22:27:03,974065 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-02-23 22:27:03,975856 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-02-23 22:27:03,977896 (MainThread): Parsing macros/etc/datetime.sql
+2020-02-23 22:27:03,985761 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-02-23 22:27:03,987664 (MainThread): Parsing macros/adapters/common.sql
+2020-02-23 22:27:04,13140 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-02-23 22:27:04,14356 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-02-23 22:27:04,15366 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-02-23 22:27:04,16526 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-02-23 22:27:04,18841 (MainThread): Parsing macros/catalog.sql
+2020-02-23 22:27:04,21017 (MainThread): Parsing macros/adapters.sql
+2020-02-23 22:27:04,31697 (MainThread): Parsing macros/materializations/merge.sql
+2020-02-23 22:27:04,33290 (MainThread): Parsing macros/materializations/view.sql
+2020-02-23 22:27:04,33969 (MainThread): Parsing macros/materializations/table.sql
+2020-02-23 22:27:04,37705 (MainThread): Parsing macros/materializations/incremental.sql
+2020-02-23 22:27:04,66577 (MainThread): Partial parsing not enabled
+2020-02-23 22:27:04,66981 (MainThread): Parsing macros/get_custom_schema.sql
+2020-02-23 22:27:04,85760 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:27:04,85896 (MainThread): Opening a new connection, currently in state init
+2020-02-23 22:27:04,389190 (MainThread): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-02-23 22:27:13,902915 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:27:13,903150 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.stg_sample).
+2020-02-23 22:27:13,909863 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:27:13,909988 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:27:13,958286 (MainThread): Found 3 models, 0 tests, 0 snapshots, 0 analyses, 123 macros, 0 operations, 0 seed files, 0 sources
+2020-02-23 22:27:13,960230 (MainThread): 
+2020-02-23 22:27:13,960679 (MainThread): Acquiring new snowflake connection "master".
+2020-02-23 22:27:13,960783 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.smple).
+2020-02-23 22:27:14,38574 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:14,38750 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "connection_name": "master"} */
+
+    
+    select distinct schema_name
+    from upst_financial_reporting_test.INFORMATION_SCHEMA.SCHEMATA
+    where catalog_name ilike 'upst_financial_reporting_test'
+2020-02-23 22:27:17,814804 (MainThread): SQL status: SUCCESS 1 in 3.78 seconds
+2020-02-23 22:27:17,829064 (MainThread): Creating schema "upst_financial_reporting_test"."randy_pitcher_STAGING".
+2020-02-23 22:27:17,831295 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:17,831406 (MainThread): On master: BEGIN
+2020-02-23 22:27:18,062 (MainThread): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:27:18,368 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:18,559 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_test.randy_pitcher_STAGING
+2020-02-23 22:27:18,956910 (MainThread): SQL status: SUCCESS 1 in 0.96 seconds
+2020-02-23 22:27:18,958865 (MainThread): On master: COMMIT
+2020-02-23 22:27:18,959102 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:18,959254 (MainThread): On master: COMMIT
+2020-02-23 22:27:19,102342 (MainThread): SQL status: SUCCESS 1 in 0.14 seconds
+2020-02-23 22:27:19,102645 (MainThread): Creating schema "upst_financial_reporting_test"."randy_pitcher_CURATED".
+2020-02-23 22:27:19,106479 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:19,106657 (MainThread): On master: BEGIN
+2020-02-23 22:27:19,249281 (MainThread): SQL status: SUCCESS 1 in 0.14 seconds
+2020-02-23 22:27:19,249587 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:19,249781 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_test.randy_pitcher_CURATED
+2020-02-23 22:27:19,571125 (MainThread): SQL status: SUCCESS 1 in 0.32 seconds
+2020-02-23 22:27:19,572805 (MainThread): On master: COMMIT
+2020-02-23 22:27:19,573052 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:19,573206 (MainThread): On master: COMMIT
+2020-02-23 22:27:19,696179 (MainThread): SQL status: SUCCESS 1 in 0.12 seconds
+2020-02-23 22:27:19,696488 (MainThread): Creating schema "upst_financial_reporting_test"."randy_pitcher_ANALYTICS".
+2020-02-23 22:27:19,700181 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:19,700348 (MainThread): On master: BEGIN
+2020-02-23 22:27:19,850080 (MainThread): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:27:19,850385 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:19,850577 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_test.randy_pitcher_ANALYTICS
+2020-02-23 22:27:20,799687 (MainThread): SQL status: SUCCESS 1 in 0.95 seconds
+2020-02-23 22:27:20,801395 (MainThread): On master: COMMIT
+2020-02-23 22:27:20,801633 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:20,801784 (MainThread): On master: COMMIT
+2020-02-23 22:27:21,48205 (MainThread): SQL status: SUCCESS 1 in 0.25 seconds
+2020-02-23 22:27:21,93233 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:21,93397 (MainThread): On master: BEGIN
+2020-02-23 22:27:21,274900 (MainThread): SQL status: SUCCESS 1 in 0.18 seconds
+2020-02-23 22:27:21,275146 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:21,275301 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_test.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_staging'
+      and table_catalog ilike 'upst_financial_reporting_test'
+2020-02-23 22:27:22,149449 (MainThread): SQL status: SUCCESS 0 in 0.87 seconds
+2020-02-23 22:27:22,154898 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:22,155076 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_test.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_analytics'
+      and table_catalog ilike 'upst_financial_reporting_test'
+2020-02-23 22:27:23,424413 (MainThread): SQL status: SUCCESS 0 in 1.27 seconds
+2020-02-23 22:27:23,431098 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:23,431352 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_test.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'randy_pitcher_curated'
+      and table_catalog ilike 'upst_financial_reporting_test'
+2020-02-23 22:27:24,179842 (MainThread): SQL status: SUCCESS 0 in 0.75 seconds
+2020-02-23 22:27:24,181913 (MainThread): On master: ROLLBACK
+2020-02-23 22:27:24,182079 (MainThread): initiating rollback
+2020-02-23 22:27:24,388450 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:24,388735 (MainThread): On master: BEGIN
+2020-02-23 22:27:24,878539 (MainThread): SQL status: SUCCESS 1 in 0.49 seconds
+2020-02-23 22:27:24,878874 (MainThread): On master: COMMIT
+2020-02-23 22:27:24,879157 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:24,879347 (MainThread): On master: COMMIT
+2020-02-23 22:27:25,114406 (MainThread): SQL status: SUCCESS 1 in 0.23 seconds
+2020-02-23 22:27:25,115134 (MainThread): 16:27:25 | Concurrency: 1 threads (target='test')
+2020-02-23 22:27:25,115421 (MainThread): 16:27:25 | 
+2020-02-23 22:27:25,117055 (Thread-2): Began running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:27:25,118284 (Thread-2): 16:27:25 | 1 of 3 START view model randy_pitcher_CURATED.cur_sample............. [RUN]
+2020-02-23 22:27:25,118927 (Thread-2): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:27:25,119095 (Thread-2): Opening a new connection, currently in state init
+2020-02-23 22:27:33,840839 (Thread-2): Compiling model.upst_financial_reporting.cur_sample
+2020-02-23 22:27:33,858588 (Thread-2): Writing injected SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:27:33,859161 (Thread-2): finished collecting timing info
+2020-02-23 22:27:33,892418 (Thread-2): Writing runtime SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:27:33,893319 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:27:33,893437 (Thread-2): On model.upst_financial_reporting.cur_sample: BEGIN
+2020-02-23 22:27:34,62611 (Thread-2): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:27:34,62945 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:27:34,63147 (Thread-2): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "node_id": "model.upst_financial_reporting.cur_sample"} */
+create or replace  view upst_financial_reporting_test.randy_pitcher_CURATED.cur_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:27:34,931162 (Thread-2): SQL status: SUCCESS 1 in 0.87 seconds
+2020-02-23 22:27:34,935280 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:27:34,935467 (Thread-2): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "node_id": "model.upst_financial_reporting.cur_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_test.randy_pitcher_CURATED.cur_sample TO ROLE upst_financial_reporting_test_READ
+2020-02-23 22:27:35,140662 (Thread-2): SQL status: SUCCESS 1 in 0.21 seconds
+2020-02-23 22:27:35,142402 (Thread-2): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:27:35,142713 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:27:35,142901 (Thread-2): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:27:35,272194 (Thread-2): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:27:35,275811 (Thread-2): finished collecting timing info
+2020-02-23 22:27:35,276926 (Thread-2): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c85b4b36-fc1c-4227-99dc-f67a94a7c45f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f27dd0>]}
+2020-02-23 22:27:35,905285 (Thread-2): 16:27:35 | 1 of 3 OK created view model randy_pitcher_CURATED.cur_sample........ [SUCCESS 1 in 10.16s]
+2020-02-23 22:27:35,905628 (Thread-2): Finished running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:27:35,905893 (Thread-2): Began running node model.upst_financial_reporting.smple
+2020-02-23 22:27:35,906365 (Thread-2): 16:27:35 | 2 of 3 START table model randy_pitcher_ANALYTICS.smple............... [RUN]
+2020-02-23 22:27:35,906902 (Thread-2): Acquiring new snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:27:35,907067 (Thread-2): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:27:35,907232 (Thread-2): Compiling model.upst_financial_reporting.smple
+2020-02-23 22:27:35,915425 (Thread-2): Writing injected SQL for node "model.upst_financial_reporting.smple"
+2020-02-23 22:27:35,915859 (Thread-2): finished collecting timing info
+2020-02-23 22:27:35,929186 (Thread-2): Writing runtime SQL for node "model.upst_financial_reporting.smple"
+2020-02-23 22:27:35,930012 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:27:35,930225 (Thread-2): On model.upst_financial_reporting.smple: BEGIN
+2020-02-23 22:27:36,113714 (Thread-2): SQL status: SUCCESS 1 in 0.18 seconds
+2020-02-23 22:27:36,113937 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:27:36,114068 (Thread-2): On model.upst_financial_reporting.smple: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "node_id": "model.upst_financial_reporting.smple"} */
+create or replace transient table upst_financial_reporting_test.randy_pitcher_ANALYTICS.smple  as
+      (select 'hello' as greeting
+      );
+2020-02-23 22:27:38,2935 (Thread-2): SQL status: SUCCESS 1 in 1.89 seconds
+2020-02-23 22:27:38,7163 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:27:38,7342 (Thread-2): On model.upst_financial_reporting.smple: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "node_id": "model.upst_financial_reporting.smple"} */
+
+        GRANT SELECT ON upst_financial_reporting_test.randy_pitcher_ANALYTICS.smple TO ROLE upst_financial_reporting_test_READ
+2020-02-23 22:27:38,177338 (Thread-2): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:27:38,179053 (Thread-2): On model.upst_financial_reporting.smple: COMMIT
+2020-02-23 22:27:38,179364 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:27:38,179568 (Thread-2): On model.upst_financial_reporting.smple: COMMIT
+2020-02-23 22:27:38,339657 (Thread-2): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:27:38,343214 (Thread-2): finished collecting timing info
+2020-02-23 22:27:38,344229 (Thread-2): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c85b4b36-fc1c-4227-99dc-f67a94a7c45f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e74390>]}
+2020-02-23 22:27:38,610788 (Thread-2): 16:27:38 | 2 of 3 OK created table model randy_pitcher_ANALYTICS.smple.......... [SUCCESS 1 in 2.44s]
+2020-02-23 22:27:38,611115 (Thread-2): Finished running node model.upst_financial_reporting.smple
+2020-02-23 22:27:38,611366 (Thread-2): Began running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:27:38,611747 (Thread-2): 16:27:38 | 3 of 3 START view model randy_pitcher_STAGING.stg_sample............. [RUN]
+2020-02-23 22:27:38,612275 (Thread-2): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:27:38,612436 (Thread-2): Re-using an available connection from the pool (formerly model.upst_financial_reporting.smple).
+2020-02-23 22:27:38,612600 (Thread-2): Compiling model.upst_financial_reporting.stg_sample
+2020-02-23 22:27:38,621272 (Thread-2): Writing injected SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:27:38,621877 (Thread-2): finished collecting timing info
+2020-02-23 22:27:38,627471 (Thread-2): Writing runtime SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:27:38,628229 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:27:38,628347 (Thread-2): On model.upst_financial_reporting.stg_sample: BEGIN
+2020-02-23 22:27:38,783146 (Thread-2): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:27:38,783477 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:27:38,783684 (Thread-2): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "node_id": "model.upst_financial_reporting.stg_sample"} */
+create or replace  view upst_financial_reporting_test.randy_pitcher_STAGING.stg_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:27:39,629366 (Thread-2): SQL status: SUCCESS 1 in 0.85 seconds
+2020-02-23 22:27:39,633971 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:27:39,634121 (Thread-2): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "test", "node_id": "model.upst_financial_reporting.stg_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_test.randy_pitcher_STAGING.stg_sample TO ROLE upst_financial_reporting_test_READ
+2020-02-23 22:27:39,783389 (Thread-2): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:27:39,785108 (Thread-2): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:27:39,785420 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:27:39,785627 (Thread-2): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:27:39,909039 (Thread-2): SQL status: SUCCESS 1 in 0.12 seconds
+2020-02-23 22:27:39,911579 (Thread-2): finished collecting timing info
+2020-02-23 22:27:39,912318 (Thread-2): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c85b4b36-fc1c-4227-99dc-f67a94a7c45f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10740fad0>]}
+2020-02-23 22:27:40,177111 (Thread-2): 16:27:40 | 3 of 3 OK created view model randy_pitcher_STAGING.stg_sample........ [SUCCESS 1 in 1.30s]
+2020-02-23 22:27:40,177433 (Thread-2): Finished running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:27:40,242771 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:40,243098 (MainThread): On master: BEGIN
+2020-02-23 22:27:40,398492 (MainThread): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:27:40,398837 (MainThread): On master: COMMIT
+2020-02-23 22:27:40,399129 (MainThread): Using snowflake connection "master".
+2020-02-23 22:27:40,399325 (MainThread): On master: COMMIT
+2020-02-23 22:27:40,639972 (MainThread): SQL status: SUCCESS 1 in 0.24 seconds
+2020-02-23 22:27:40,640725 (MainThread): 16:27:40 | 
+2020-02-23 22:27:40,641018 (MainThread): 16:27:40 | Finished running 2 view models, 1 table model in 26.68s.
+2020-02-23 22:27:40,641261 (MainThread): Connection 'master' was left open.
+2020-02-23 22:27:40,641451 (MainThread): On master: Close
+2020-02-23 22:27:40,851988 (MainThread): Connection 'model.upst_financial_reporting.stg_sample' was left open.
+2020-02-23 22:27:40,852247 (MainThread): On model.upst_financial_reporting.stg_sample: Close
+2020-02-23 22:27:42,382538 (MainThread): 
+2020-02-23 22:27:42,382759 (MainThread): Completed successfully
+2020-02-23 22:27:42,382919 (MainThread): 
+Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+2020-02-23 22:27:42,383219 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ed0a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d5cc90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d5cc50>]}
+2020-02-23 22:27:42,648017 (MainThread): Flushing usage events
+2020-02-23 22:27:50,893644 (MainThread): Running with dbt=0.15.0
+2020-02-23 22:27:51,259390 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,259611 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,259807 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,277742 (MainThread): Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+2020-02-23 22:27:51,278762 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,296393 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,301019 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,301063 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,301100 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,301134 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,301165 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,301193 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,301221 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,302923 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,302964 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,302996 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,303026 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,303057 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,303086 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,303113 (MainThread): invalid escape sequence \*
+2020-02-23 22:27:51,635454 (MainThread): invalid escape sequence \[
+2020-02-23 22:27:51,750512 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='/Users/randypitcherii/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target='prod', test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-02-23 22:27:51,752092 (MainThread): Tracking: tracking
+2020-02-23 22:27:51,752364 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5cb690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5cbad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5cb810>]}
+2020-02-23 22:27:52,22003 (MainThread): Global variable 'kSecRandomDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22253 (MainThread): Global variable 'kSecPaddingKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22367 (MainThread): Global variable 'kSecPaddingPKCS7Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22472 (MainThread): Global variable 'kSecPaddingPKCS5Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22574 (MainThread): Global variable 'kSecPaddingPKCS1Key' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22673 (MainThread): Global variable 'kSecPaddingOAEPKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22775 (MainThread): Global variable 'kSecPaddingNoneKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22873 (MainThread): Global variable 'kSecModeCBCKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,22968 (MainThread): Global variable 'kSecTransformInputAttributeName' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23064 (MainThread): Global variable 'kSecDigestTypeAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23159 (MainThread): Global variable 'kSecDigestLengthAttribute' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23255 (MainThread): Global variable 'kSecIVKey' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23350 (MainThread): Global variable 'kSecAttrIsExtractable' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23444 (MainThread): Global variable 'kSecDigestSHA1' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23542 (MainThread): Global variable 'kSecDigestSHA2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23638 (MainThread): Global variable 'kSecDigestMD5' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23731 (MainThread): Global variable 'kSecAttrKeyType' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23825 (MainThread): Global variable 'kSecAttrKeyTypeRSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,23919 (MainThread): Global variable 'kSecAttrKeyTypeDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24013 (MainThread): Global variable 'kSecAttrKeyTypeECDSA' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24111 (MainThread): Global variable 'kSecAttrKeySizeInBits' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24209 (MainThread): Global variable 'kSecAttrLabel' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24303 (MainThread): Global variable 'kSecAttrCanSign' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24396 (MainThread): Global variable 'kSecAttrCanVerify' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24489 (MainThread): Global variable 'kSecAttrKeyTypeAES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24582 (MainThread): Global variable 'kSecAttrKeyTypeRC4' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24675 (MainThread): Global variable 'kSecAttrKeyTypeRC2' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24768 (MainThread): Global variable 'kSecAttrKeyType3DES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,24865 (MainThread): Global variable 'kSecAttrKeyTypeDES' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,44734 (MainThread): Global variable 'kCFAllocatorDefault' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,44874 (MainThread): Global variable 'kCFTypeArrayCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,44985 (MainThread): Global variable 'kCFBooleanTrue' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,45088 (MainThread): Global variable 'kCFTypeDictionaryKeyCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,45189 (MainThread): Global variable 'kCFTypeDictionaryValueCallBacks' in cdef(): for consistency with C it should have a storage class specifier (usually 'extern')
+2020-02-23 22:27:52,216075 (MainThread): Partial parsing not enabled
+2020-02-23 22:27:52,218315 (MainThread): Parsing macros/core.sql
+2020-02-23 22:27:52,222091 (MainThread): Parsing macros/materializations/helpers.sql
+2020-02-23 22:27:52,229199 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-02-23 22:27:52,230809 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-02-23 22:27:52,242011 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-02-23 22:27:52,259975 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-02-23 22:27:52,276335 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-02-23 22:27:52,278193 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-02-23 22:27:52,284452 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-02-23 22:27:52,291196 (MainThread): Parsing macros/materializations/table/table.sql
+2020-02-23 22:27:52,297193 (MainThread): Parsing macros/materializations/view/view.sql
+2020-02-23 22:27:52,302960 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-02-23 22:27:52,307719 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-02-23 22:27:52,308707 (MainThread): Parsing macros/etc/query.sql
+2020-02-23 22:27:52,309868 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-02-23 22:27:52,311609 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-02-23 22:27:52,313639 (MainThread): Parsing macros/etc/datetime.sql
+2020-02-23 22:27:52,321512 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-02-23 22:27:52,323406 (MainThread): Parsing macros/adapters/common.sql
+2020-02-23 22:27:52,348303 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-02-23 22:27:52,349508 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-02-23 22:27:52,350508 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-02-23 22:27:52,351660 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-02-23 22:27:52,354172 (MainThread): Parsing macros/catalog.sql
+2020-02-23 22:27:52,356344 (MainThread): Parsing macros/adapters.sql
+2020-02-23 22:27:52,366739 (MainThread): Parsing macros/materializations/merge.sql
+2020-02-23 22:27:52,368311 (MainThread): Parsing macros/materializations/view.sql
+2020-02-23 22:27:52,368980 (MainThread): Parsing macros/materializations/table.sql
+2020-02-23 22:27:52,372581 (MainThread): Parsing macros/materializations/incremental.sql
+2020-02-23 22:27:52,401598 (MainThread): Partial parsing not enabled
+2020-02-23 22:27:52,401998 (MainThread): Parsing macros/get_custom_schema.sql
+2020-02-23 22:27:52,420507 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:27:52,420643 (MainThread): Opening a new connection, currently in state init
+2020-02-23 22:27:52,707175 (MainThread): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.15.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-02-23 22:28:05,981794 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:28:05,982028 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.stg_sample).
+2020-02-23 22:28:05,988480 (MainThread): Acquiring new snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:28:05,988599 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:28:06,35882 (MainThread): Found 3 models, 0 tests, 0 snapshots, 0 analyses, 123 macros, 0 operations, 0 seed files, 0 sources
+2020-02-23 22:28:06,37848 (MainThread): 
+2020-02-23 22:28:06,38291 (MainThread): Acquiring new snowflake connection "master".
+2020-02-23 22:28:06,38397 (MainThread): Re-using an available connection from the pool (formerly model.upst_financial_reporting.smple).
+2020-02-23 22:28:06,116946 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:06,117132 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "connection_name": "master"} */
+
+    
+    select distinct schema_name
+    from upst_financial_reporting_prod.INFORMATION_SCHEMA.SCHEMATA
+    where catalog_name ilike 'upst_financial_reporting_prod'
+2020-02-23 22:28:08,725578 (MainThread): SQL status: SUCCESS 2 in 2.61 seconds
+2020-02-23 22:28:08,739773 (MainThread): Creating schema "upst_financial_reporting_prod"."STAGING".
+2020-02-23 22:28:08,742303 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:08,742427 (MainThread): On master: BEGIN
+2020-02-23 22:28:08,896260 (MainThread): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:28:08,896574 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:08,896774 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_prod.STAGING
+2020-02-23 22:28:09,952447 (MainThread): SQL status: SUCCESS 1 in 1.06 seconds
+2020-02-23 22:28:09,954171 (MainThread): On master: COMMIT
+2020-02-23 22:28:09,954426 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:09,954585 (MainThread): On master: COMMIT
+2020-02-23 22:28:10,88754 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:28:10,89078 (MainThread): Creating schema "upst_financial_reporting_prod"."CURATED".
+2020-02-23 22:28:10,92846 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:10,93025 (MainThread): On master: BEGIN
+2020-02-23 22:28:10,280073 (MainThread): SQL status: SUCCESS 1 in 0.19 seconds
+2020-02-23 22:28:10,280389 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:10,280592 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "connection_name": "master"} */
+create schema if not exists upst_financial_reporting_prod.CURATED
+2020-02-23 22:28:10,872862 (MainThread): SQL status: SUCCESS 1 in 0.59 seconds
+2020-02-23 22:28:10,875725 (MainThread): On master: COMMIT
+2020-02-23 22:28:10,876206 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:10,876430 (MainThread): On master: COMMIT
+2020-02-23 22:28:11,7940 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:28:11,58892 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:11,59164 (MainThread): On master: BEGIN
+2020-02-23 22:28:11,212800 (MainThread): SQL status: SUCCESS 1 in 0.15 seconds
+2020-02-23 22:28:11,213206 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:11,213649 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_prod.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'analytics'
+      and table_catalog ilike 'upst_financial_reporting_prod'
+2020-02-23 22:28:12,506231 (MainThread): SQL status: SUCCESS 0 in 1.29 seconds
+2020-02-23 22:28:12,511554 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:12,511722 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_prod.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'staging'
+      and table_catalog ilike 'upst_financial_reporting_prod'
+2020-02-23 22:28:13,423060 (MainThread): SQL status: SUCCESS 0 in 0.91 seconds
+2020-02-23 22:28:13,428630 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:13,428786 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "connection_name": "master"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from upst_financial_reporting_prod.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'curated'
+      and table_catalog ilike 'upst_financial_reporting_prod'
+2020-02-23 22:28:14,119119 (MainThread): SQL status: SUCCESS 0 in 0.69 seconds
+2020-02-23 22:28:14,121329 (MainThread): On master: ROLLBACK
+2020-02-23 22:28:14,121494 (MainThread): initiating rollback
+2020-02-23 22:28:14,867324 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:14,867627 (MainThread): On master: BEGIN
+2020-02-23 22:28:15,35109 (MainThread): SQL status: SUCCESS 1 in 0.17 seconds
+2020-02-23 22:28:15,35471 (MainThread): On master: COMMIT
+2020-02-23 22:28:15,35768 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:15,35977 (MainThread): On master: COMMIT
+2020-02-23 22:28:15,481841 (MainThread): SQL status: SUCCESS 1 in 0.45 seconds
+2020-02-23 22:28:15,482589 (MainThread): 16:28:15 | Concurrency: 1 threads (target='prod')
+2020-02-23 22:28:15,482885 (MainThread): 16:28:15 | 
+2020-02-23 22:28:15,484275 (Thread-2): Began running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:28:15,484676 (Thread-2): 16:28:15 | 1 of 3 START view model CURATED.cur_sample........................... [RUN]
+2020-02-23 22:28:15,485325 (Thread-2): Acquiring new snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:28:15,485531 (Thread-2): Opening a new connection, currently in state init
+2020-02-23 22:28:23,848657 (Thread-2): Compiling model.upst_financial_reporting.cur_sample
+2020-02-23 22:28:23,867768 (Thread-2): Writing injected SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:28:23,868278 (Thread-2): finished collecting timing info
+2020-02-23 22:28:23,902300 (Thread-2): Writing runtime SQL for node "model.upst_financial_reporting.cur_sample"
+2020-02-23 22:28:23,903255 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:28:23,903375 (Thread-2): On model.upst_financial_reporting.cur_sample: BEGIN
+2020-02-23 22:28:24,67241 (Thread-2): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:28:24,67570 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:28:24,67773 (Thread-2): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "node_id": "model.upst_financial_reporting.cur_sample"} */
+create or replace  view upst_financial_reporting_prod.CURATED.cur_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:28:24,438581 (Thread-2): SQL status: SUCCESS 1 in 0.37 seconds
+2020-02-23 22:28:24,443295 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:28:24,443481 (Thread-2): On model.upst_financial_reporting.cur_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "node_id": "model.upst_financial_reporting.cur_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_prod.CURATED.cur_sample TO ROLE upst_financial_reporting_prod_READ
+2020-02-23 22:28:24,635928 (Thread-2): SQL status: SUCCESS 1 in 0.19 seconds
+2020-02-23 22:28:24,637653 (Thread-2): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:28:24,637985 (Thread-2): Using snowflake connection "model.upst_financial_reporting.cur_sample".
+2020-02-23 22:28:24,638190 (Thread-2): On model.upst_financial_reporting.cur_sample: COMMIT
+2020-02-23 22:28:24,762516 (Thread-2): SQL status: SUCCESS 1 in 0.12 seconds
+2020-02-23 22:28:24,766107 (Thread-2): finished collecting timing info
+2020-02-23 22:28:24,767208 (Thread-2): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3393477-5fe0-41ec-80d8-c373e0221dd4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf97290>]}
+2020-02-23 22:28:25,59774 (Thread-2): 16:28:25 | 1 of 3 OK created view model CURATED.cur_sample...................... [SUCCESS 1 in 9.28s]
+2020-02-23 22:28:25,60132 (Thread-2): Finished running node model.upst_financial_reporting.cur_sample
+2020-02-23 22:28:25,60388 (Thread-2): Began running node model.upst_financial_reporting.smple
+2020-02-23 22:28:25,60887 (Thread-2): 16:28:25 | 2 of 3 START table model ANALYTICS.smple............................. [RUN]
+2020-02-23 22:28:25,61414 (Thread-2): Acquiring new snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:28:25,61582 (Thread-2): Re-using an available connection from the pool (formerly model.upst_financial_reporting.cur_sample).
+2020-02-23 22:28:25,61747 (Thread-2): Compiling model.upst_financial_reporting.smple
+2020-02-23 22:28:25,69800 (Thread-2): Writing injected SQL for node "model.upst_financial_reporting.smple"
+2020-02-23 22:28:25,70251 (Thread-2): finished collecting timing info
+2020-02-23 22:28:25,83757 (Thread-2): Writing runtime SQL for node "model.upst_financial_reporting.smple"
+2020-02-23 22:28:25,84511 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:28:25,84625 (Thread-2): On model.upst_financial_reporting.smple: BEGIN
+2020-02-23 22:28:25,926687 (Thread-2): SQL status: SUCCESS 1 in 0.84 seconds
+2020-02-23 22:28:25,927008 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:28:25,927211 (Thread-2): On model.upst_financial_reporting.smple: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "node_id": "model.upst_financial_reporting.smple"} */
+create or replace transient table upst_financial_reporting_prod.ANALYTICS.smple  as
+      (select 'hello' as greeting
+      );
+2020-02-23 22:28:27,155449 (Thread-2): SQL status: SUCCESS 1 in 1.23 seconds
+2020-02-23 22:28:27,159947 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:28:27,160193 (Thread-2): On model.upst_financial_reporting.smple: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "node_id": "model.upst_financial_reporting.smple"} */
+
+        GRANT SELECT ON upst_financial_reporting_prod.ANALYTICS.smple TO ROLE upst_financial_reporting_prod_READ
+2020-02-23 22:28:27,350899 (Thread-2): SQL status: SUCCESS 1 in 0.19 seconds
+2020-02-23 22:28:27,353381 (Thread-2): On model.upst_financial_reporting.smple: COMMIT
+2020-02-23 22:28:27,354361 (Thread-2): Using snowflake connection "model.upst_financial_reporting.smple".
+2020-02-23 22:28:27,355155 (Thread-2): On model.upst_financial_reporting.smple: COMMIT
+2020-02-23 22:28:27,483318 (Thread-2): SQL status: SUCCESS 1 in 0.13 seconds
+2020-02-23 22:28:27,486866 (Thread-2): finished collecting timing info
+2020-02-23 22:28:27,487888 (Thread-2): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3393477-5fe0-41ec-80d8-c373e0221dd4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfd1c90>]}
+2020-02-23 22:28:27,977237 (Thread-2): 16:28:27 | 2 of 3 OK created table model ANALYTICS.smple........................ [SUCCESS 1 in 2.43s]
+2020-02-23 22:28:27,977557 (Thread-2): Finished running node model.upst_financial_reporting.smple
+2020-02-23 22:28:27,977800 (Thread-2): Began running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:28:27,978182 (Thread-2): 16:28:27 | 3 of 3 START view model STAGING.stg_sample........................... [RUN]
+2020-02-23 22:28:27,978711 (Thread-2): Acquiring new snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:28:27,978872 (Thread-2): Re-using an available connection from the pool (formerly model.upst_financial_reporting.smple).
+2020-02-23 22:28:27,979034 (Thread-2): Compiling model.upst_financial_reporting.stg_sample
+2020-02-23 22:28:27,987031 (Thread-2): Writing injected SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:28:27,987479 (Thread-2): finished collecting timing info
+2020-02-23 22:28:27,992064 (Thread-2): Writing runtime SQL for node "model.upst_financial_reporting.stg_sample"
+2020-02-23 22:28:27,992709 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:28:27,992821 (Thread-2): On model.upst_financial_reporting.stg_sample: BEGIN
+2020-02-23 22:28:28,179598 (Thread-2): SQL status: SUCCESS 1 in 0.19 seconds
+2020-02-23 22:28:28,179922 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:28:28,180123 (Thread-2): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "node_id": "model.upst_financial_reporting.stg_sample"} */
+create or replace  view upst_financial_reporting_prod.STAGING.stg_sample  as (
+    select 'hello' as greeting
+  );
+2020-02-23 22:28:28,998545 (Thread-2): SQL status: SUCCESS 1 in 0.82 seconds
+2020-02-23 22:28:29,2757 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:28:29,2943 (Thread-2): On model.upst_financial_reporting.stg_sample: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "upst_financial_reporting", "target_name": "prod", "node_id": "model.upst_financial_reporting.stg_sample"} */
+
+        GRANT SELECT ON upst_financial_reporting_prod.STAGING.stg_sample TO ROLE upst_financial_reporting_prod_READ
+2020-02-23 22:28:29,167572 (Thread-2): SQL status: SUCCESS 1 in 0.16 seconds
+2020-02-23 22:28:29,169295 (Thread-2): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:28:29,169606 (Thread-2): Using snowflake connection "model.upst_financial_reporting.stg_sample".
+2020-02-23 22:28:29,169817 (Thread-2): On model.upst_financial_reporting.stg_sample: COMMIT
+2020-02-23 22:28:29,348581 (Thread-2): SQL status: SUCCESS 1 in 0.18 seconds
+2020-02-23 22:28:29,351868 (Thread-2): finished collecting timing info
+2020-02-23 22:28:29,352890 (Thread-2): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3393477-5fe0-41ec-80d8-c373e0221dd4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfd5310>]}
+2020-02-23 22:28:29,621549 (Thread-2): 16:28:29 | 3 of 3 OK created view model STAGING.stg_sample...................... [SUCCESS 1 in 1.37s]
+2020-02-23 22:28:29,621881 (Thread-2): Finished running node model.upst_financial_reporting.stg_sample
+2020-02-23 22:28:29,682959 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:29,683283 (MainThread): On master: BEGIN
+2020-02-23 22:28:29,920231 (MainThread): SQL status: SUCCESS 1 in 0.24 seconds
+2020-02-23 22:28:29,920572 (MainThread): On master: COMMIT
+2020-02-23 22:28:29,920862 (MainThread): Using snowflake connection "master".
+2020-02-23 22:28:29,921058 (MainThread): On master: COMMIT
+2020-02-23 22:28:30,146217 (MainThread): SQL status: SUCCESS 1 in 0.22 seconds
+2020-02-23 22:28:30,146975 (MainThread): 16:28:30 | 
+2020-02-23 22:28:30,147264 (MainThread): 16:28:30 | Finished running 2 view models, 1 table model in 24.11s.
+2020-02-23 22:28:30,147505 (MainThread): Connection 'master' was left open.
+2020-02-23 22:28:30,147705 (MainThread): On master: Close
+2020-02-23 22:28:30,373169 (MainThread): Connection 'model.upst_financial_reporting.stg_sample' was left open.
+2020-02-23 22:28:30,373356 (MainThread): On model.upst_financial_reporting.stg_sample: Close
+2020-02-23 22:28:30,582109 (MainThread): 
+2020-02-23 22:28:30,582332 (MainThread): Completed successfully
+2020-02-23 22:28:30,582476 (MainThread): 
+Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+2020-02-23 22:28:30,582727 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b13b0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6f2e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6f2b10>]}
+2020-02-23 22:28:30,973245 (MainThread): Flushing usage events
